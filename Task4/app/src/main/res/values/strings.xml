@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Задание4</string>
+
+    <string name="button_asynctask">ASYNCTASK ACTIVITY</string>
+    <string name="button_loader">LOADER ACTIVITY</string>
+    <string name="button_threads">THREADS ACTIVITY</string>
+
+    <string name="button_create">CREATE</string>
+    <string name="button_start">START</string>
+    <string name="button_cancel">CANCEL</string>
+
+    <string name="done_label">Done!</string>
+    <string name="loading_label">Loading…</string>
+    <string name="cancelled_label">Cancelled</string>
+</resources>

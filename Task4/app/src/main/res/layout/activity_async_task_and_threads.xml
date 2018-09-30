@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activities_paddings">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginBottom="@dimen/buttons_margins">
+
+        <Button
+            android:id="@+id/asynctask_create_button"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/button_create"/>
+
+        <Button
+            android:id="@+id/asynctask_start_button"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/button_start"/>
+
+        <Button
+            android:id="@+id/asynctask_cancel_button"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/button_cancel"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/asynctask_progress_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linear"
+        android:gravity="center"
+        android:background="@color/colorAsyncTaskButton"/>
+
+</RelativeLayout>

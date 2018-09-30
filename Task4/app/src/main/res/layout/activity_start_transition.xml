@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activities_paddings"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+    <Button
+        android:id="@+id/asynctask_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/activities_paddings"
+        android:layout_weight="1"
+        android:background="@color/colorAsyncTaskButton"
+        android:text="@string/button_asynctask"
+        android:textSize="@dimen/main_activity_button_size"/>
+
+    <Button
+        android:id="@+id/loader_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/activities_paddings"
+        android:layout_weight="1"
+        android:background="@color/colorLoaderButton"
+        android:text="@string/button_loader"
+        android:textSize="@dimen/main_activity_button_size"/>
+
+    <Button
+        android:id="@+id/threads_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorThreadsButton"
+        android:text="@string/button_threads"
+        android:textSize="@dimen/main_activity_button_size"/>
+
+</LinearLayout>
