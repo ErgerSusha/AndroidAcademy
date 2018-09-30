@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_actor_photo">200dp</dimen>
+    <dimen name="margin_actor_photo">2dp</dimen>
+    <dimen name="photo_margin_land">16dp</dimen>
+    <dimen name="details_padding">12dp</dimen>
+</resources>
