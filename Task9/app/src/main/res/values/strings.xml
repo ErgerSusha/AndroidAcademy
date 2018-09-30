@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Task9</string>
+    <string name="dialog_title">We need yur permission</string>
+    <string name="dialog_message">Otherwise the world can not be saved :(</string>
+    <string name="dialog_ok">OK</string>
+    <string name="notification_title">Downloading…</string>
+    <string name="notification_message">Downloading file</string>
+</resources>
