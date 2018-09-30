@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_activity">15dp</dimen>
+    <dimen name="bottom_filler">5dp</dimen>
+    <dimen name="text_space">20dp</dimen>
+    <dimen name="bottom_margins">30dp</dimen>
+    <dimen name="button_landscape_width">200dp</dimen>
+</resources>

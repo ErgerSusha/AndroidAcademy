@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_activity"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/email_button"
+        android:layout_marginBottom="@dimen/padding_activity"
+        android:paddingLeft="@dimen/text_space"
+        android:paddingBottom="@dimen/padding_activity"
+        android:inputType="text"
+        android:hint="@string/edittext_text"/>
+    
+    <Button
+        android:id="@+id/activity_button"
+        android:text="@string/button_activity_text"
+        android:layout_width="@dimen/button_landscape_width"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/email_button"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorButtonActivity"/>
+
+    <Button
+        android:id="@+id/email_button"
+        android:text="@string/button_email_text"
+        android:layout_width="@dimen/button_landscape_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/bottom_filler"
+        android:background="@color/colorButtonEmail"/>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Task1</string>
+    <string name="button_activity_text">ACTIVITY</string>
+    <string name="button_email_text">EMAIL</string>
+    <string name="edittext_text">Type your message here…</string>
+    <string name="second_activity_label">Second Activity</string>
+    <string name="my_email">ergersusha2@gmail.com</string>
+    <string name="subject">The message I wrote on my appЕц</string>
+    <string name="chooser_text">Choose App to send your message</string>
+</resources>

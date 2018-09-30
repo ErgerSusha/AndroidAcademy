@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Задание1</string>
+    <string name="button_activity_text">АКТИВИТИ</string>
+    <string name="button_email_text">ЭЛЕКТРОННАЯ ПОЧТА</string>
+    <string name="edittext_text">Введите свое сообщение здесь…</string>
+    <string name="second_activity_label">Вторая активити</string>
+    <string name="my_email">ergersusha2@gmail.com</string>
+    <string name="subject">Сообщение, которое я написал в приложении</string>
+    <string name="chooser_text">Выберите приложение для отправки Вашего сообщения</string>
+</resources>
