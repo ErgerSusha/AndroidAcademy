@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Задание5</string>
+    <string name="searching">Searching…</string>
+    <string name="error">Error: %d</string>
+    <string name="error_http">Error in HTTP</string>
+    <string name="button_text">Search</string>
+    <string name="show_next">Next</string>
+    <string name="edit_text_hint">Enter film title to search</string>
+</resources>

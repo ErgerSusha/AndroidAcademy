@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_film_poster_and_title">
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/film_poster"
+        android:layout_width="@dimen/width_film_poster"
+        android:layout_height="@dimen/height_film_poster"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true" />
+    
+    <TextView
+        android:id="@+id/film_title"
+        android:background="@color/colorBlack"
+        android:layout_width="@dimen/width_film_poster"
+        android:layout_height="@dimen/height_film_title"
+        android:layout_below="@+id/film_poster"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

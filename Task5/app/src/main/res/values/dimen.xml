@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_film_poster_and_title">300dp</dimen>
+    <dimen name="height_film_poster">267dp</dimen>
+    <dimen name="height_film_title">40dp</dimen>
+    <dimen name="width_film_poster">180dp</dimen>
+    <dimen name="width_film_title">180dp</dimen>
+    <dimen name="page_padding">10dp</dimen>
+</resources>
