@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_main_screen">20dp</dimen>
+    <dimen name="padding_main_screen">16dp</dimen>
+    <dimen name="text_size_main_screen">16sp</dimen>
+
+    <dimen name="recycler_view_item_height">220dp</dimen>
+    <dimen name="recycler_view_item_width">200dp</dimen>
+
+    <dimen name="zero_dp">0dp</dimen>
+
+    <dimen name="close_button_size">32dp</dimen>
+</resources>

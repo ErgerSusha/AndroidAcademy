@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Задание7</string>
+
+    <string name="image_from_unsplash">Image from unsplash.com</string>
+    <string name="collection_visit_button_text">Visit collection</string>
+    <string name="error_message">Something went wrong..</string>
+</resources>
