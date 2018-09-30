@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/top_elements_rel_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/top_elements_padding"
+        android:paddingTop="@dimen/top_elements_padding">
+
+        <ImageView
+            android:id="@+id/large_avatar"
+            android:layout_width="@dimen/large_avatar_size"
+            android:layout_height="@dimen/large_avatar_size"
+            android:layout_marginEnd="@dimen/large_avatar_margin"
+            android:src="@drawable/large_pic_avatar"
+            android:contentDescription="@string/large_avatar_content_description" />
+
+        <TextView
+            android:id="@+id/addicts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/large_avatar"
+            android:layout_toEndOf="@+id/large_avatar"
+            android:text="@string/addicts_text" />
+
+        <ImageView
+            android:id="@+id/medium_avatar"
+            android:layout_width="@dimen/medium_avatar_size"
+            android:layout_height="@dimen/medium_avatar_size"
+            android:layout_toEndOf="@+id/large_avatar"
+            android:layout_alignBottom="@+id/large_avatar"
+            android:layout_marginEnd="@dimen/medium_avatar_margin"
+            android:layout_marginTop="@dimen/medium_avatar_margin"
+            android:src="@drawable/middle_pic_avatar"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/medium_avatar"
+            android:layout_toEndOf="@+id/medium_avatar"
+            android:text="@string/photo_message_text" />
+
+        <TextView
+            android:id="@+id/yesterday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/yesterday_text_view_margin"
+            android:text="@string/yesterday"
+            android:textColor="@color/colorPrimary" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/little_avatar"
+        android:layout_width="@dimen/little_avatar_size"
+        android:layout_height="@dimen/little_avatar_size"
+        android:layout_below="@+id/top_elements_rel_layout"
+        android:layout_marginEnd="@dimen/little_avatar_padding_end"
+        android:layout_marginTop="@dimen/little_avatar_padding_top"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/little_pic_avatar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/little_avatar"
+        android:padding="@dimen/middle_elements_padding_large"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/lorem"
+            android:layout_width="@dimen/zero"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="@dimen/lorem_ipsum_margin"
+            android:text="@string/lorem_ipsum_text" />
+
+        <Button
+            android:layout_width="@dimen/zero"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:text="@string/like_text" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_minsk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/like_text"/>
+
+</RelativeLayout>

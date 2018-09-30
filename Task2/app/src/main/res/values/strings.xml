@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Задание2</string>
+    <string name="addicts_text">ID addicts</string>
+    <string name="photo_message_text">You: Photo message</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="lorem_ipsum_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="like_text">Text like button</string>
+    <string name="large_avatar_content_description">Large user photo</string>
+</resources>
